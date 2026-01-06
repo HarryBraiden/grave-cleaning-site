@@ -49,8 +49,17 @@ body{
 }
 
 .hero{
-  padding:80px 0 60px;
+  padding:100px 0 80px;
   text-align:center;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.75)
+    ),
+    url("https://drive.google.com/uc?export=view&id=12ZrJI1ji1OIRp0aJgGhCg7xuhdhOdqwH");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero h1{
