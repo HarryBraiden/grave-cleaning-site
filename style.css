@@ -47,6 +47,7 @@ body{
   font-size:.85rem;
   color:var(--muted);
 }
+
 .hero{
   padding:100px 0 80px;
   text-align:center;
@@ -55,12 +56,11 @@ body{
       rgba(0,0,0,0.55),
       rgba(0,0,0,0.75)
     ),
-    url("https://drive.google.com/uc?export=view&id=12ZrJI1ji1OIRp0aJgGhCg7xuhdhOdqwH");
+    url("https://www.dropbox.com/scl/fi/xp6ec6t7vfmxlayvyd2e1/Photo-06-01-2026-15-38-11.png?rlkey=7ls1cnntd5g0taxznqkzfgf5o&st=m2f6jznd&raw=1");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 .hero h1{
   font-size:2.2rem;
