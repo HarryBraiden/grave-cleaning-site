@@ -47,7 +47,6 @@ body{
   font-size:.85rem;
   color:var(--muted);
 }
-
 .hero{
   padding:100px 0 80px;
   text-align:center;
@@ -60,7 +59,8 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-};
+}
+
 
 .hero h1{
   font-size:2.2rem;
