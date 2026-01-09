@@ -142,3 +142,24 @@ body{
   background:var(--accent);
   color:#121212;
 }
+
+.btn-call {
+  background: #1e7f34;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-email {
+  background: #555;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
