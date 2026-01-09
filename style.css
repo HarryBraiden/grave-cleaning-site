@@ -163,3 +163,9 @@ body{
   font-weight: 600;
   display: inline-block;
 }
+
+/* FAQ spacing fix */
+.faq {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
