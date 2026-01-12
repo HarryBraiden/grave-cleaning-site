@@ -175,17 +175,12 @@ header h1 {
 }
 
 .hero-subtitle {
-  color: #4a6f7c; /* softer blue-grey */
+  color: #EOCE57; /* softer blue-grey */
   font-weight: 400;
   margin-top: 10px;
 }
 
-/* Header brand text – gold + thicker */
-.site-header .brand-text h2 {
-  color: #c6a75e;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-}
+
 
 /* Centre the brand text when it wraps on mobile */
 .site-header .brand-text h2{
@@ -193,14 +188,7 @@ header h1 {
   line-height: 1.1;
 }
 
-/* Make the header button match the brand tone */
-.site-header .btn{
-  background: #c6a75e;
-  color: #0b0f14;
-  font-weight: 600;
-  border-radius: 14px;  /* less 'bubble', more premium */
-  padding: 10px 16px;
-}
+
 
 /* Make the header button match the brand tone */
 .site-header .btn{
