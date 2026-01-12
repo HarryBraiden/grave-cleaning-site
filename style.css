@@ -192,3 +192,12 @@ header h1 {
   text-align: center;
   line-height: 1.1;
 }
+
+/* Make the header button match the brand tone */
+.site-header .btn{
+  background: #c6a75e;
+  color: #0b0f14;
+  font-weight: 600;
+  border-radius: 14px;  /* less 'bubble', more premium */
+  padding: 10px 16px;
+}
