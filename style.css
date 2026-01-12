@@ -169,3 +169,13 @@ body{
   padding-top: 60px;
   padding-bottom: 120px;
 }
+
+header h1 {
+  color: #1f4d5f; /* deep respectful blue */
+}
+
+.hero-subtitle {
+  color: #4a6f7c; /* softer blue-grey */
+  font-weight: 400;
+  margin-top: 10px;
+}
