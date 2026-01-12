@@ -180,10 +180,8 @@ header h1 {
   margin-top: 10px;
 }
 
-/* Header title – gold tone + thicker */
-.hero-title,
-.site-title,
-header h1 {
+/* Header brand text – gold + thicker */
+.site-header .brand-text h2 {
   color: #c6a75e;
   font-weight: 600;
   letter-spacing: 0.3px;
