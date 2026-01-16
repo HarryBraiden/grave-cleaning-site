@@ -215,40 +215,40 @@ header h1 {
   gap: 10px;
 }
 
-/* ===== STRONG BRAND HEADER (FINAL SCALE) ===== */
+/* ===== HERO-LEVEL BRAND HEADER ===== */
 
 .site-header .brand-with-logo {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
 }
 
-/* LOGO — make it a real brand mark */
+/* LOGO — unmistakable */
 .site-header .brand-logo {
-  width: 52px;
-  height: 52px;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-/* BRAND TEXT — primary, not secondary */
+/* BRAND NAME — dominant */
 .site-header .hero-subtitle {
-  font-size: 1.6rem;
-  font-weight: 800;
-  letter-spacing: 0.4px;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.6px;
   line-height: 1.1;
   margin: 0;
 }
 
-/* Mobile fine-tune (still bold) */
+/* Mobile still BIG */
 @media (max-width: 600px) {
   .site-header .brand-logo {
-    width: 46px;
-    height: 46px;
+    width: 64px;
+    height: 64px;
   }
 
   .site-header .hero-subtitle {
-    font-size: 1.4rem;
-    font-weight: 800;
+    font-size: 1.8rem;
+    font-weight: 900;
   }
 }
