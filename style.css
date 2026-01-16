@@ -214,3 +214,21 @@ header h1 {
   align-items: center;
   gap: 10px;
 }
+
+/* ===== Header title weight & size ===== */
+
+/* Only the site name next to the logo */
+.site-header .hero-subtitle {
+  font-size: 1.25rem;      /* bigger */
+  font-weight: 700;        /* thicker */
+  letter-spacing: 0.2px;   /* subtle strength */
+  line-height: 1.2;
+}
+
+/* Mobile tweak */
+@media (max-width: 600px) {
+  .site-header .hero-subtitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+}
