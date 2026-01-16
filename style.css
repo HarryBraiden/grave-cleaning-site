@@ -199,34 +199,3 @@ header h1 {
   padding: 10px;
   }
   
-  /* ===== Midlands: LIGHTEN ONLY THE DARK BLOCKS (NOT HEADER/BUTTONS) ===== */
-
-/* Pick your “light navy” for the blocks */
-:root{
-  --block-navy: #123A5A; /* tweak later if needed */
-}
-
-/* These are the common “rounded dark blocks/cards” */
-.card,
-.cards > div,
-.panel,
-.feature,
-.feature-card,
-.service-card,
-.tile,
-.box,
-.info-box,
-.content-box,
-.glass,
-.glass-card,
-.section-card {
-  background-color: var(--block-navy) !important;
-}
-
-/* If your blocks are inside a specific section, this helps */
-#top + section .card,
-#top + section .panel,
-#top + section .feature-card,
-#top + section .tile {
-  background-color: var(--block-navy) !important;
-}
