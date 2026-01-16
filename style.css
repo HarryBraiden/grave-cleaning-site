@@ -215,42 +215,41 @@ header h1 {
   gap: 10px;
 }
 
-/* ===== LOCKED BRAND HEADER + SCALED LOGO ===== */
+/* ===== CLEAN HEADER LOCKUP (CENTERED) ===== */
+
+.site-header .header-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 16px;
+}
 
 .site-header .brand-with-logo {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 18px;
+  text-align: center;
+  gap: 10px;
 }
 
-/* Lock the layout size */
 .site-header .brand-logo {
-  width: 90px;          /* layout size (DO NOT CHANGE) */
-  height: 90px;
+  width: 84px;
+  height: 84px;
   object-fit: contain;
-  flex-shrink: 0;
-
-  /* VISUAL SCALE (this is the magic) */
-  transform: scale(1.8);
-  transform-origin: left center;
 }
 
-/* Text stays untouched and stable */
 .site-header .hero-subtitle {
-  font-size: 2rem;
+  font-size: 1.55rem;
   font-weight: 800;
-  line-height: 1.05;
+  line-height: 1.1;
   letter-spacing: 0;
   margin: 0;
 }
 
-/* Mobile: still big but controlled */
-@media (max-width: 600px) {
-  .site-header .brand-logo {
-    transform: scale(1.5);
-  }
-
-  .site-header .hero-subtitle {
-    font-size: 1.6rem;
-  }
+/* Button sits under neatly */
+.site-header .btn,
+.site-header .btn-primary {
+  width: min(320px, 90%);
+  text-align: center;
 }
