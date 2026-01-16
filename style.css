@@ -253,3 +253,18 @@ header h1 {
   width: min(320px, 90%);
   text-align: center;
 }
+
+
+/* ===== Final fixes (safe) ===== */
+
+/* Make top logo larger */
+.site-header img {
+  height: 80px;       /* bigger logo */
+  width: auto;
+}
+
+/* WhatsApp button shape to match phone & email */
+.whatsapp-btn {
+  border-radius: 12px;     /* same family as phone/email */
+  padding: 14px 22px;
+}
