@@ -272,6 +272,6 @@ header h1 {
 /* ===== Final logo size increase ===== */
 
 .site-header .brand img {
-  height: 130px;   /* BIGGER logo */
+  height: 150px;   /* BIGGER logo */
   width: auto;
 }
