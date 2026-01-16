@@ -198,3 +198,28 @@ header h1 {
   border-radius: 14px;  /* less 'bubble', more premium */
   padding: 10px 16px;
 }
+
+
+/* ===== LIGHT NAVY THEME (Midlands Grave Revival) ===== */
+:root{
+  --light-navy: #123A5A;
+}
+
+/* All main blue blocks / sections */
+header, nav, .navbar, .site-header, .topbar, .top-bar,
+.hero, .hero-section,
+.section-header, .banner, .cta, .callout,
+.block, .panel, .card-header {
+  background-color: var(--light-navy) !important;
+}
+
+/* Buttons that used the old blue */
+button, .btn, .button, .cta-btn {
+  background-color: var(--light-navy) !important;
+  border-color: var(--light-navy) !important;
+}
+
+/* Any text/icons sitting on those blue blocks */
+header *, nav *, .topbar *, .top-bar *, .hero * {
+  color: #ffffff !important;
+}
