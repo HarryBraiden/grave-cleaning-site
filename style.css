@@ -199,3 +199,18 @@ header h1 {
   padding: 10px;
   }
   
+/* ===== FIX HEADER LOGO SIZE (STOP IT TAKING OVER) ===== */
+
+.site-header .brand-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Make sure the text stays inline */
+.site-header .brand-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
