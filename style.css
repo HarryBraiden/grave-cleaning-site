@@ -268,3 +268,10 @@ header h1 {
   border-radius: 12px;     /* same family as phone/email */
   padding: 14px 22px;
 }
+
+/* ===== Final logo size increase ===== */
+
+.site-header .brand img {
+  height: 130px;   /* BIGGER logo */
+  width: auto;
+}
