@@ -303,3 +303,39 @@ header {
   flex-direction: column;
   justify-content: flex-start;
 }
+
+/* SHRINK THE TOP BLUE BAR (without changing logo/text sizes) */
+header,
+.header,
+.site-header,
+.top-header,
+.top-bar,
+.navbar {
+  min-height: 0 !important;
+  height: auto !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+/* REMOVE EXTRA SPACE AROUND LOGO + TITLE */
+header img,
+.header img,
+.site-header img,
+.top-header img,
+.top-bar img,
+.navbar img {
+  margin: 0 !important;
+}
+
+header h1,
+.header h1,
+.site-header h1,
+.top-header h1,
+.top-bar h1,
+.navbar h1 {
+  margin: 8px 0 0 0 !important;
+}
