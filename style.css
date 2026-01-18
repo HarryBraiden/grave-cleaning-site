@@ -230,7 +230,7 @@ header h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .site-header .brand-logo {
