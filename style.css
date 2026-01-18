@@ -228,8 +228,8 @@ header h1 {
 }
 
 .site-header .brand-logo {
-  width: 84px;
-  height: 84px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
 }
 
