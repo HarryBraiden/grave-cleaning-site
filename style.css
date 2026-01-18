@@ -275,3 +275,7 @@ header h1 {
   height: 165px;   /* BIGGER logo */
   width: auto;
 }
+
+header h1 {
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+}
