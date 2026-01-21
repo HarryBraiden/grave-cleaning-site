@@ -322,3 +322,106 @@ header h1 {
   color: var(--logo-gold) !important;
   text-shadow: 0 1px 0 rgba(0,0,0,0.4) !important;
 }
+
+
+/* ================================
+   EARTH + HERITAGE THEME OVERLAY
+   (Green + Gold, no blue, no black)
+================================ */
+
+/* Core palette */
+:root{
+  --earth-dark: #1f2b24;     /* deep forest green */
+  --earth-mid:  #2e3f36;     /* moss green */
+  --earth-soft: #3f564a;     /* soft sage */
+  --earth-light:#6f8f7c;     /* lichen green */
+
+  --heritage-gold: #c6a75e;  /* logo gold */
+  --heritage-soft:#e6d3a3;   /* soft antique gold */
+
+  --text-main: #f4f6f2;
+  --text-soft: rgba(244,246,242,.75);
+  --line-soft: rgba(255,255,255,.08);
+}
+
+/* Body background */
+body{
+  background: linear-gradient(180deg, var(--earth-dark), var(--earth-mid));
+  color: var(--text-main);
+}
+
+/* Header */
+.site-header{
+  background: linear-gradient(180deg, #1c2621, #22322a);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+/* Brand name */
+.brand-name{
+  font-family: "Playfair Display", serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  color: var(--heritage-gold) !important;
+  text-shadow: 0 1px 0 rgba(0,0,0,.4);
+}
+
+/* Hero overlay */
+.hero{
+  background:
+    linear-gradient(
+      rgba(31,43,36,.75),
+      rgba(31,43,36,.85)
+    ),
+    url("https://www.dropbox.com/scl/fi/tnfgrare1ub5ucsfy6676/Photo-06-01-2026-15-43-10.png?rlkey=ayu4b2r59ulzyxxrw15z8art6&raw=1");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cards / panels */
+.card,
+.contact-card{
+  background: linear-gradient(180deg, #24352d, #1f2b24);
+  border: 1px solid var(--line-soft);
+}
+
+/* Sections */
+.section-alt{
+  background: linear-gradient(180deg, #22322a, #1f2b24);
+  border-top: 1px solid var(--line-soft);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+/* Buttons */
+.btn-primary{
+  background: linear-gradient(180deg, var(--heritage-soft), var(--heritage-gold));
+  color: #1f2b24;
+  font-weight: 700;
+}
+
+.btn-call{
+  background: #2f6b4f;   /* natural green */
+  color: #ffffff;
+}
+
+.btn-email{
+  background: #4a5a52;   /* slate green */
+  color: #ffffff;
+}
+
+/* Footer */
+.site-footer{
+  background: #1f2b24;
+  border-top: 1px solid var(--line-soft);
+}
+
+.footer-small{
+  color: var(--text-soft);
+}
+
+/* Text tones */
+.lead,
+.small,
+.brand-tag{
+  color: var(--text-soft);
+}
