@@ -544,3 +544,58 @@ h1, h2, h3{
 p, li{
   color: var(--text-soft);
 }
+
+/* ===== HERO TEXT READABILITY ===== */
+.hero h1 {
+  text-shadow: 0 3px 8px rgba(0,0,0,0.6);
+}
+
+/* ===== HERO GOLD DIVIDER ===== */
+.hero::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 90px;
+  background: var(--heritage-gold);
+  margin: 24px auto 0;
+}
+
+/* ===== SECTION HEADINGS ===== */
+.hero h1,
+.section h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: var(--heritage-gold);
+}
+
+/* ===== GOLD SERVICE BULLETS ===== */
+ul li {
+  list-style: none;
+  padding-left: 22px;
+  position: relative;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--heritage-gold);
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* ===== CONTACT SECTION POLISH ===== */
+.contact-lines a {
+  padding: 12px 0;
+  font-weight: 600;
+  color: var(--heritage-gold);
+}
+
+/* ===== GALLERY (FOR LATER IMAGES) ===== */
+.gallery img {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
