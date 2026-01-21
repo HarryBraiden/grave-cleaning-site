@@ -599,3 +599,18 @@ ul li::before {
   width: 100%;
   height: auto;
 }
+
+/* ===== MAKE HEADER LOGO BIGGER ===== */
+
+.site-header img{
+  width: 190px;      /* increase size */
+  max-width: 90vw;   /* safe on mobile */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Give the header a bit more breathing room */
+.site-header .header-inner{
+  padding: 28px 16px;
+}
