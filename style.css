@@ -603,8 +603,8 @@ ul li::before {
 /* ===== MAKE HEADER LOGO BIGGER ===== */
 
 .site-header img{
-  width: 190px;      /* increase size */
-  max-width: 90vw;   /* safe on mobile */
+  width: 230px;      /* increase size */
+  max-width: 100vw;   /* safe on mobile */
   height: auto;
   margin: 0 auto;
   display: block;
