@@ -449,3 +449,98 @@ body{
 .btn-primary:hover{
   filter: brightness(1.05);
 }
+
+/* ================================
+   FINAL POLISH – MEMORIAL FINISH
+================================ */
+
+/* 1️⃣ Slight global softness (less harsh edges) */
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 2️⃣ Improve spacing rhythm */
+.section{
+  padding: 70px 0;
+}
+
+/* 3️⃣ Headings feel carved, not loud */
+h1, h2, h3{
+  letter-spacing: .5px;
+}
+
+/* 4️⃣ Hero headline refinement */
+.hero h1{
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--heritage-gold);
+}
+
+/* 5️⃣ Cards feel heavier / grounded */
+.card,
+.contact-card{
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.25),
+    inset 0 1px 0 rgba(255,255,255,.04);
+}
+
+/* 6️⃣ Subtle divider lines (stone feel) */
+.section-alt{
+  position: relative;
+}
+.section-alt::before,
+.section-alt::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  height:1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,.15),
+    transparent
+  );
+}
+.section-alt::before{ top:0; }
+.section-alt::after{ bottom:0; }
+
+/* 7️⃣ Buttons feel pressed, not flat */
+.btn-call,
+.btn-email,
+.whatsapp-btn,
+.btn-primary{
+  box-shadow:
+    0 6px 16px rgba(0,0,0,.25),
+    inset 0 1px 0 rgba(255,255,255,.35);
+  transition: all .2s ease;
+}
+
+.btn-call:hover,
+.btn-email:hover,
+.whatsapp-btn:hover,
+.btn-primary:hover{
+  transform: translateY(-1px);
+}
+
+/* 8️⃣ Footer feels finished, not abrupt */
+.site-footer{
+  background: linear-gradient(
+    180deg,
+    #1f2b24,
+    #1a241f
+  );
+}
+
+/* 9️⃣ Small text is calmer */
+.small,
+.footer-small{
+  letter-spacing: .3px;
+}
+
+/* 🔟 Prevent over-bright whites */
+p, li{
+  color: var(--text-soft);
+}
