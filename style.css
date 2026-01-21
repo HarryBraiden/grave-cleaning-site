@@ -299,3 +299,10 @@ header h1 {
   padding: 0 !important;
   display: block !important;
 }
+
+.site-header h1,
+.site-header h2,
+.site-header .brand-name{
+  font-family:"Playfair Display", serif !important;
+  color: var(--accent) !important;
+}
