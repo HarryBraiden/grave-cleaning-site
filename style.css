@@ -614,3 +614,58 @@ ul li::before {
 .site-header .header-inner{
   padding: 28px 16px;
 }
+
+.gallery-preview {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.gallery-preview-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.gallery-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.gallery-preview p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.gallery-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.gallery-btn:hover {
+  opacity: 0.9;
+}
+
+.gallery-header {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
