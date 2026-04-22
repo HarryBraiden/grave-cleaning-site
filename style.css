@@ -748,3 +748,17 @@ ul li::before {
   transform: translateY(-4px);
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
 }
+
+.service-area-line {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #d8c089;
+  opacity: 0.9;
+  margin: 10px 0 40px;
+  letter-spacing: 0.3px;
+}
+
+.service-area-line span {
+  color: #e7e2d6;
+  opacity: 0.95;
+}
