@@ -762,3 +762,48 @@ ul li::before {
   color: #e7e2d6;
   opacity: 0.95;
 }
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 34px auto 0;
+  width: 88%;
+  max-width: 360px;
+}
+
+.hero-btn {
+  display: block;
+  text-align: center;
+  padding: 15px 22px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.gold-btn {
+  background: linear-gradient(135deg, #d6b35a, #f1d889, #b98b2d);
+  color: #10251d;
+  box-shadow: 0 8px 22px rgba(214, 179, 90, 0.25);
+}
+
+.outline-btn {
+  color: #e8d28a;
+  border: 1px solid rgba(232, 210, 138, 0.55);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+}
+
+.gold-btn:hover {
+  box-shadow: 0 10px 26px rgba(214, 179, 90, 0.35);
+}
+
+.outline-btn:hover {
+  background: rgba(232, 210, 138, 0.1);
+}
