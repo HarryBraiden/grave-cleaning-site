@@ -764,46 +764,41 @@ ul li::before {
 }
 
 .hero-buttons {
+  position: static;
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  margin: 34px auto 0;
-  width: 88%;
-  max-width: 360px;
+  gap: 9px;
+  margin: 22px auto 0;
+  width: 78%;
+  max-width: 285px;
+  z-index: auto;
 }
 
 .hero-btn {
+  position: static;
   display: block;
   text-align: center;
-  padding: 15px 22px;
+  padding: 10px 16px;
   border-radius: 999px;
-  font-size: 1rem;
+  font-size: 0.86rem;
   font-weight: 600;
-  letter-spacing: 0.4px;
   text-decoration: none;
-  transition: 0.25s ease;
+  letter-spacing: 0.25px;
+  transition: all 0.25s ease;
 }
 
 .gold-btn {
   background: linear-gradient(135deg, #d6b35a, #f1d889, #b98b2d);
-  color: #10251d;
-  box-shadow: 0 8px 22px rgba(214, 179, 90, 0.25);
+  color: #0f241c;
+  box-shadow: 0 5px 14px rgba(214, 179, 90, 0.22);
 }
 
 .outline-btn {
-  color: #e8d28a;
-  border: 1px solid rgba(232, 210, 138, 0.55);
-  background: rgba(255, 255, 255, 0.04);
+  color: #e6cf84;
+  border: 1px solid rgba(230, 207, 132, 0.45);
+  background: rgba(255, 255, 255, 0.025);
 }
 
 .hero-btn:hover {
-  transform: translateY(-2px);
-}
-
-.gold-btn:hover {
-  box-shadow: 0 10px 26px rgba(214, 179, 90, 0.35);
-}
-
-.outline-btn:hover {
-  background: rgba(232, 210, 138, 0.1);
+  transform: translateY(-1px);
 }
