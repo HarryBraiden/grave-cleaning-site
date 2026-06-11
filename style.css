@@ -873,3 +873,61 @@ p  { color: var(--text-light); line-height: 1.75; }
 .fade-up-1 { animation-delay: .1s; }
 .fade-up-2 { animation-delay: .2s; }
 .fade-up-3 { animation-delay: .3s; }
+
+/* ── ACCESSIBILITY ── */
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--orange);
+  color: var(--white);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: .95rem;
+  padding: .75rem 1.5rem;
+  border-radius: 0 0 8px 8px;
+  z-index: 9999;
+  transition: top .2s ease;
+}
+.skip-link:focus { top: 0; }
+
+/* Visible focus rings for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* High-contrast text improvements */
+.service-card p,
+.why-point p,
+.process-step p { color: #4a5568; }
+
+/* Larger tap targets on mobile */
+@media (max-width: 768px) {
+  .nav-btn,
+  .btn { min-height: 48px; }
+  .contact-card { min-height: 64px; }
+  .area-pill { padding: .8rem 1.4rem; font-size: .95rem; }
+  .sticky-btn { font-size: 1rem; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}
+
+/* Scrolled header — subtle shadow */
+.site-header.scrolled {
+  box-shadow: 0 4px 24px rgba(0,0,0,.25);
+}
