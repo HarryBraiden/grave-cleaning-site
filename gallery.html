@@ -1,55 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery | Midlands Grave Revival & Care</title>
-  <meta name="description" content="View our recent grave and headstone cleaning work across the Black Country & West Midlands.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <title>Work Gallery | LDF Fascias & Guttering | Bilston, West Midlands</title>
+  <meta name="description" content="View LDF Fascias & Guttering's project gallery — before and after photos of fascia, soffit, guttering and roofline installations across the West Midlands." />
+  <meta name="theme-color" content="#f97316" />
+  <link rel="manifest" href="manifest.json" />
+  <meta property="og:title" content="Work Gallery | LDF Fascias & Guttering" />
+  <meta property="og:description" content="Real installations on real homes across Bilston, Wolverhampton and the West Midlands." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="gallery.css" />
 </head>
 <body>
 
-  <header class="site-header">
+  <div class="announce-bar">
+    <span><i class="fa-solid fa-phone-volume"></i> Call us FREE: <a href="tel:07828695559">07828 695559</a></span>
+    <span class="pipe">|</span>
+    <span><i class="fa-brands fa-whatsapp"></i> WhatsApp for a fast quote: <a href="https://wa.me/447828695559">Message us</a></span>
+  </div>
+
+  <header class="site-header" id="header">
     <div class="container header-inner">
-      <a href="index.html" class="brand-link">
-        <img src="assets/mgr-logo.png.PNG" alt="Midlands Grave Revival logo" class="brand-logo">
+      <a href="index.html" class="brand">
+        <div class="brand-logo-wrap">
+          <span class="brand-icon"><i class="fa-solid fa-house-chimney"></i></span>
+          <div class="brand-text">
+            <span class="brand-name">LDF</span>
+            <span class="brand-sub">Fascias &amp; Guttering</span>
+          </div>
+        </div>
       </a>
-      <nav class="header-nav">
-        <a href="https://wa.me/447828695559" class="nav-btn nav-btn--gold">Get a Free Quote</a>
-        <a href="tel:07828695559" class="nav-btn nav-btn--outline">Call Now</a>
-        <a href="index.html" class="nav-btn nav-btn--outline">← Back to Home</a>
+      <nav class="main-nav">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#why-us">Why Us</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="index.html#areas">Areas</a>
+        <a href="index.html#contact">Contact</a>
       </nav>
+      <div class="header-ctas">
+        <a href="tel:07828695559" class="btn btn-outline-white"><i class="fa-solid fa-phone"></i> 07828 695559</a>
+        <a href="index.html#contact" class="btn btn-orange">Free Quote</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
-  <section class="gallery-header-section">
+  <div class="nav-drawer" id="navDrawer">
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    <nav class="drawer-nav">
+      <a href="index.html#services" class="drawer-link">Services</a>
+      <a href="index.html#why-us" class="drawer-link">Why Us</a>
+      <a href="gallery.html" class="drawer-link">Gallery</a>
+      <a href="index.html#areas" class="drawer-link">Areas</a>
+      <a href="index.html#contact" class="drawer-link">Contact</a>
+    </nav>
+    <div class="drawer-ctas">
+      <a href="tel:07828695559" class="btn btn-orange btn-full"><i class="fa-solid fa-phone"></i> Call 07828 695559</a>
+      <a href="https://wa.me/447828695559" class="btn btn-ghost btn-full" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+    </div>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
     <div class="container">
-      <span class="hero-eyebrow">Our Portfolio</span>
-      <h1>Our Recent Work</h1>
-      <p>Examples of memorial cleaning and restoration across the West Midlands.</p>
-      <a href="https://wa.me/447828695559" class="btn btn--gold">Get a Quote for Your Memorial</a>
+      <div class="page-hero-content">
+        <a href="index.html" class="breadcrumb"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+        <h1>Our <span class="highlight">Work Gallery</span></h1>
+        <p>Real installations on real homes across Bilston, Wolverhampton and the West Midlands. Every job we're proud to show.</p>
+      </div>
     </div>
   </section>
 
-  <section class="gallery-grid">
-    <img src="assets/after2.jpeg" alt="Grave cleaning result">
-    <img src="assets/after3.jpeg" alt="Grave cleaning result">
-    <img src="assets/after4.jpeg" alt="Grave cleaning result">
-    <img src="assets/after5.jpeg" alt="Grave cleaning result">
-    <img src="assets/after6.jpeg" alt="Grave cleaning result">
-    <img src="assets/after7.jpeg" alt="Grave cleaning result">
+  <!-- FILTER TABS -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="filter-tabs" id="filterTabs">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="fascias">Fascias</button>
+        <button class="filter-btn" data-filter="soffits">Soffits</button>
+        <button class="filter-btn" data-filter="guttering">Guttering</button>
+        <button class="filter-btn" data-filter="cladding">Cladding</button>
+        <button class="filter-btn" data-filter="full-package">Full Package</button>
+      </div>
+
+      <div class="gallery-masonry" id="galleryGrid">
+
+        <div class="gallery-card" data-category="full-package">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Full roofline replacement Bilston" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Full Package</span>
+            <h3>Fascia, Soffit &amp; Gutter Replacement</h3>
+            <p>Bilston — White uPVC full roofline package</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="guttering">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" alt="Guttering installation" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Guttering</span>
+            <h3>Square-Profile Guttering</h3>
+            <p>Wolverhampton — Black square gutter &amp; downpipes</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="full-package">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Modern home roofline" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Full Package</span>
+            <h3>Complete Roofline Transformation</h3>
+            <p>Wednesbury — Grey fascias, white soffits &amp; ogee guttering</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="fascias">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80" alt="Fascia replacement" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Fascias</span>
+            <h3>uPVC Fascia Boards</h3>
+            <p>Tipton — Woodgrain fascia &amp; white soffits</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="cladding">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80" alt="uPVC cladding" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Cladding</span>
+            <h3>uPVC Exterior Cladding</h3>
+            <p>Wolverhampton — White shiplap cladding</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="full-package">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&q=80" alt="Detached home roofline" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Full Package</span>
+            <h3>Detached Home Roofline</h3>
+            <p>Coseley — Complete fascia, soffit &amp; gutter package</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="guttering">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&q=80" alt="Half-round guttering" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Guttering</span>
+            <h3>Half-Round Gutter System</h3>
+            <p>Darlaston — White half-round guttering &amp; downpipes</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="soffits">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&q=80" alt="Soffit installation" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Soffits</span>
+            <h3>Ventilated Soffit Boards</h3>
+            <p>Willenhall — Ventilated white soffits replacing rotten timber</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="fascias">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80" alt="Semi-detached fascia replacement" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Fascias</span>
+            <h3>Semi-Detached Fascia Replacement</h3>
+            <p>Walsall — Anthracite grey fascias &amp; white soffits</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="cladding">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=800&q=80" alt="House exterior cladding" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Cladding</span>
+            <h3>Full Gable End Cladding</h3>
+            <p>Dudley — Cream woodgrain cladding on gable end</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="full-package">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80" alt="Terrace roofline" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Full Package</span>
+            <h3>Terraced Row Roofline</h3>
+            <p>Sedgley — Multiple properties, full roofline renewal</p>
+          </div>
+        </div>
+
+        <div class="gallery-card" data-category="guttering">
+          <div class="gallery-card-img">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Downpipe installation" loading="lazy" />
+            <div class="gallery-card-overlay">
+              <button class="gallery-zoom" data-src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1400&q=90" aria-label="View full size"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            </div>
+          </div>
+          <div class="gallery-card-info">
+            <span class="gallery-tag">Guttering</span>
+            <h3>Black Ogee Guttering</h3>
+            <p>Tipton — Black ogee guttering &amp; round downpipes</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="no-results" id="noResults" style="display:none">
+        <i class="fa-solid fa-images"></i>
+        <p>No projects found in this category.</p>
+      </div>
+    </div>
   </section>
+
+  <!-- CTA -->
+  <section class="gallery-cta-section section section-dark">
+    <div class="container" style="text-align:center">
+      <span class="section-tag">Like What You See?</span>
+      <h2 style="color:white;margin-block:.75rem 1rem">Get a Free Quote for Your Home</h2>
+      <p style="margin-bottom:2rem;max-width:520px;margin-inline:auto">Our work speaks for itself. Get in touch and we'll give you a free, no-obligation quote for your fascias, soffits or guttering.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+        <a href="index.html#contact" class="btn btn-orange btn-lg">Request a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="tel:07828695559" class="btn btn-ghost btn-lg"><i class="fa-solid fa-phone"></i> Call 07828 695559</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Image lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="lightbox-inner">
+      <img src="" alt="Gallery image" id="lightboxImg" />
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <img src="assets/mgr-logo.png.PNG" alt="Midlands Grave Revival logo" class="footer-logo">
-      <p class="footer-tagline">Because a place of rest should never be forgotten.</p>
-      <p class="footer-small">&copy; 2026 Midlands Grave Revival &amp; Care · Serving the Black Country &amp; West Midlands · Mon–Sun</p>
+      <div class="footer-brand">
+        <div class="brand-logo-wrap">
+          <span class="brand-icon"><i class="fa-solid fa-house-chimney"></i></span>
+          <div class="brand-text">
+            <span class="brand-name">LDF</span>
+            <span class="brand-sub">Fascias &amp; Guttering</span>
+          </div>
+        </div>
+        <p>Local roofline specialists based in Bilston, covering the West Midlands and Black Country.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/p/LDF-Fascias-Guttering-100091321956906/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.me/447828695559" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <a href="index.html#services">uPVC Fascias</a>
+        <a href="index.html#services">Soffits</a>
+        <a href="index.html#services">Guttering</a>
+        <a href="index.html#services">Downpipes</a>
+        <a href="index.html#services">uPVC Cladding</a>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <a href="index.html#why-us">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="index.html#areas">Areas Covered</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <a href="tel:07828695559"><i class="fa-solid fa-phone"></i> 07828 695559</a>
+        <a href="https://wa.me/447828695559" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+        <span><i class="fa-solid fa-location-dot"></i> Bilston, West Midlands</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>&copy; 2024 LDF Fascias &amp; Guttering. All rights reserved.</span>
+        <span>Based in Bilston, West Midlands</span>
+      </div>
     </div>
   </footer>
 
+  <div class="sticky-cta">
+    <a href="tel:07828695559" class="sticky-btn sticky-btn--call"><i class="fa-solid fa-phone"></i> Call Now</a>
+    <a href="https://wa.me/447828695559" class="sticky-btn sticky-btn--whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <script src="main.js"></script>
+  <script src="gallery.js"></script>
 </body>
 </html>
